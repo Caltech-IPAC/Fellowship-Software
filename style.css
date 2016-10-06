@@ -1,0 +1,188 @@
+body {
+font-family: Verdana; 
+font-size: 11px;
+}
+
+td {
+font-family: Verdana; 
+font-size: 12px;
+}
+
+a:link {
+color: #428bca; 
+font-family: Verdana; 
+font-size: 12px;
+text-decoration: none; 
+font-weight: normal;
+}
+
+a:visited {
+color: #428bca; 
+font-family: Verdana; 
+font-size: 12px;
+text-decoration: none; 
+font-weight: normal;
+}
+
+a:hover {
+color: #428bca; 
+font-family: Verdana; 
+font-size: 12px;
+text-decoration: underline; 
+font-weight: normal;
+}
+
+a.top:link {
+color: #ffffff;
+font-size: 14px; 
+font-family: inherit;
+text-decoration: none; 
+padding: 1px 25px 1px 1px;
+}
+
+a.top:visited {
+color: #ffffff; 
+text-decoration: none; 
+padding: 1px 25px 1px 1px;
+}
+
+a.top:hover {
+color: #cccccc; 
+text-decoration: none; 
+padding: 1px 25px 1px 1px;
+}
+
+hr {
+margin-top: 1px;
+margin-bottom: 1px;
+border: 0;
+border-top: 1px solid #dddddd;
+}
+
+.proptable { 
+border: 1px solid #ddd; 
+border-collapse: collapse;
+}
+
+.proptable tr.propheader td  { 
+background-color: #eee;
+font-weight: bold; 
+/*border-bottom: 1px solid #b1b5b9; */
+padding: 5px 5px;
+}
+
+.proptable td { 
+border-right: 1px solid #ddd; 
+border-bottom: 1px solid #ddd; 
+padding: 5px 5px;
+}
+
+.proptable tbody tr:hover td { 
+background-color:#f5f5f5;
+}
+
+input[type="text"], input[type="password"] {
+font-family: inherit;
+font-size: 12px;
+color: #555;
+border: 1px solid #bbb;
+border-radius: 3px;
+padding: 5px 4px;
+height: 16px;
+}
+
+select, textarea {
+font-family: inherit;
+font-size: 12px;
+color: #333;
+border: 1px solid #bbb;
+border-radius: 3px;
+padding: 5px 5px;
+line-height: 18px;
+}
+
+
+.myButton {
+font-family: inherit;
+padding: 6px 10px;
+font-size: 14px;
+border-radius: 4px;
+color: #FFF;
+background-color: #4280ca;
+cursor: pointer;
+border: 1px solid transparent;
+height: 33px;
+}
+
+.myButton:hover {
+color: #fff;
+background-color: #2f67a9;
+}
+
+.myButtonsm {
+font-family: inherit;
+padding: 2px 8px;
+font-size: 11px;
+border-radius: 4px;
+color: #FFF;
+background-color: #4280ca;
+cursor: pointer;
+border: 1px solid transparent;
+height: 22px;
+}
+
+.myButtonsm:hover {
+color: #fff;
+background-color: #2f67a9;
+}
+
+
+/* Form errors */
+
+form.cmxform label.error {
+color: #d54339;
+font-style: italic;
+margin-left: 10px;
+}
+
+input.error { border: 1px solid #d54339; }
+textarea.error { border: 1px solid #d54339; }
+select.error { border: 1px solid #d54339; }
+
+form.cmxform fieldset {
+border: none;
+}
+
+.headleft {
+display: inline;
+padding: 1px 20px;  
+color: #fff;
+font-size: 21px;
+}
+
+.headright {
+display: inline;
+padding: 1px 35px;  
+color: #bbb;
+font-size: 15px;
+}
+
+
+ul li {
+margin-bottom: 4px;
+}
+
+
+.red {
+color: #cc0000;
+}
+
+.grey {
+color: #999;
+}
+
+.blue {
+color: #75bedb;
+}
+
+

@@ -1,0 +1,55 @@
+NONEXCLUSIVE, NON-TRANSFERABLE SOFTWARE LICENSE AGREEMENT FOR RESEARCH PURPOSES
+
+Copyright (c) 2016, California Institute of Technology
+All rights not granted herein are expressly reserved by CALTECH.
+
+The California Institute of Technology ("CALTECH") will provide you ("LICENSEE") a version 
+of ("SOFTWARE"). By downloading the SOFTWARE from this site, LICENSEE agrees to the following 
+terms:
+
+1. CALTECH is granting LICENSEE a nonexclusive, non-transferable, royalty-free license, without 
+the right to sublicense, to use the SOFTWARE (including its source code) or create and use 
+derivative works based on the SOFTWARE, provided that LICENSEE uses the SOFTWARE ONLY for 
+internal, non-commercial, not-for-profit purposes.
+
+2. LICENSEE agrees not to use the Software for any commercial use, including commercial research 
+or consulting. LICENSEE agrees not to distribute the SOFTWARE to any person external to the 
+LICENSEE without the prior written permission of CALTECH. LICENSEE agrees not to allow any 
+person external to LICENSEE to use the SOFTWARE without the prior written permission of CALTECH.
+
+3. For any other use of the SOFTWARE including commercial use, or if you work for a for-profit 
+organization, you will need a commercial license. In this case, please contact the CALTECH Office 
+of Technology Transfer at innovation@caltech.edu. 
+
+4. The SOFTWARE is experimental in nature and is being licensed "as is". The license of the 
+SOFTWARE does not include any technical support.
+
+5. LICENSEE agrees to grant CALTECH and other research organizations a nonexclusive, 
+non-transferable, royalty-free license to any other software (including source code), 
+information or data that incorporate any part of the SOFTWARE for the purpose of research 
+internal to CALTECH or the other research organization, as well as any purpose for or on 
+behalf of the United States Government.
+
+6. LICENSEE agrees that any person within the LICENSEE utilizing the SOFTWARE or derivative 
+works will be advised of, and is subject to, the conditions in the Agreement.
+
+7. THE SOFTWARE AND/OR RELATED MATERIALS ARE PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED 
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND 
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL CALTECH OR THE HOWARD 
+HUGHES MEDICAL INSTITUTE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY 
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR 
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY 
+OF SUCH DAMAGE. LICENSEE BEARS ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THE SOFTWARE 
+AND/OR RELATED MATERIALS OR DERIVATIVE WORKS.
+
+8. This Agreement will be governed by the laws of the State of California, and any action 
+brought hereunder shall be within the state of California.
+
+
+
+
+
+64586201
+
