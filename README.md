@@ -139,47 +139,47 @@ options: "View applications" and "View letters".
 
 1. View Applications (list_apps.php)
 
-This page lists the submitted applications. Basic information about each applicant
-is listed, along with links to the submitted application materials (CV, research
-statements, etc.). After the reference letters are moved to the applicant's individual
-directory (details in next section), the "Letters" column will contain links to the
-reference letters. A PDF document containing the coversheet and all of the application 
-materials (minus the letters) is available in this table (this is the same file that
-was attached to the confirmation email to the applicant). Links to "create" and "view" 
-the final PDF application (including the letters) are in the last column.
+  This page lists the submitted applications. Basic information about each applicant
+  is listed, along with links to the submitted application materials (CV, research
+  statements, etc.). After the reference letters are moved to the applicant's individual
+  directory (details in next section), the "Letters" column will contain links to the
+  reference letters. A PDF document containing the coversheet and all of the application 
+  materials (minus the letters) is available in this table (this is the same file that
+  was attached to the confirmation email to the applicant). Links to "create" and "view" 
+  the final PDF application (including the letters) are in the last column.
 
-To create the final application, after the required number of letters are submitted
-and moved to the applicant's directory (see next section), click the "create" link.  
-This will concatenate all of the application materials, including the coversheet, 
-documents uploaded by the applicant, and all of their letters of recommendation into 
-one final PDF file. If the PDF is successfully created, the "view" link will become 
-active.
+  To create the final application, after the required number of letters are submitted
+  and moved to the applicant's directory (see next section), click the "create" link.  
+  This will concatenate all of the application materials, including the coversheet, 
+  documents uploaded by the applicant, and all of their letters of recommendation into 
+  one final PDF file. If the PDF is successfully created, the "view" link will become 
+  active.
 
-Occasionally some of the files to be concatenated are not real PDFs, which will 
-cause the concatenation to fail. In this case, the "view" link will not become 
-active or will not open properly. Check that all files to be concatenated are truly 
-PDFs, convert any if necessary, and re-click the "create" link.
+  Occasionally some of the files to be concatenated are not real PDFs, which will 
+  cause the concatenation to fail. In this case, the "view" link will not become 
+  active or will not open properly. Check that all files to be concatenated are truly 
+  PDFs, convert any if necessary, and re-click the "create" link.
 
 2. View Letters (list_letters.php)
 
-This page lists the submitted letters of recommendation. The table lists both the 
-applicant's name and the referee's name, the date the letter was submitted, and a 
-link to the letter itself. The "Select Applicant" column contains a list of the
-applicants' names, as entered by the applicants themselves on the application
-submission page. The "Move" buttons in the "Move Letter" column can be used to move 
-a letter into the appropriate applicant's directory.
+  This page lists the submitted letters of recommendation. The table lists both the 
+  applicant's name and the referee's name, the date the letter was submitted, and a 
+  link to the letter itself. The "Select Applicant" column contains a list of the
+  applicants' names, as entered by the applicants themselves on the application
+  submission page. The "Move" buttons in the "Move Letter" column can be used to move 
+  a letter into the appropriate applicant's directory.
 
-The letters are often submitted before the applications, so you may see several 
-letters for an applicant before their name shows up in the "Select Applicant" 
-column.
+  The letters are often submitted before the applications, so you may see several 
+  letters for an applicant before their name shows up in the "Select Applicant" 
+  column.
 
-To move a letter, select the appropriate applicant's name in the "Select Applicant"
-column and then press the "Move" button. The applicant's name in the "Select
-Applicant" column might not exactly match the name in the "Applicant Name" column
-because the former was entered by the applicant and the latter was entered by
-the referee.
+  To move a letter, select the appropriate applicant's name in the "Select Applicant"
+  column and then press the "Move" button. The applicant's name in the "Select
+  Applicant" column might not exactly match the name in the "Applicant Name" column
+  because the former was entered by the applicant and the latter was entered by
+  the referee.
 
-Once the letters are moved to an applicant's directory, the "1", "2", and "3" links
-will become active in the "Letters" column in the "View Applications" page.  Once
-all the letters have been moved, you can start creating the final versions of the
-application as described in the previous section.
+  Once the letters are moved to an applicant's directory, the "1", "2", and "3" links
+  will become active in the "Letters" column in the "View Applications" page.  Once
+  all the letters have been moved, you can start creating the final versions of the
+  application as described in the previous section.
