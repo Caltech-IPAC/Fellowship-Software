@@ -94,37 +94,37 @@ Application and Letter Submission Forms:
 
 1. Application Submission Form (application.php)
 
-This is where the applicants will enter their application information and upload 
-documents related to their applications. Form validation is handled by the
-"jquery-validation" plugin.
+  This is where the applicants will enter their application information and upload 
+  documents related to their applications. Form validation is handled by the
+  "jquery-validation" plugin.
 
-The script that processes the form is "submit_app.php". The form information 
-is entered into the database and a unique directory for the applicant is 
-automatically created containing their uploaded files. A PDF coversheet is 
-generated (using the FPDF library, included in this distribution) and appended 
-to their uploaded files. The resulting PDF file (coversheet + uploaded files) 
-is attached to the confirmation email that is sent to the applicant (using the 
-"phpmailer" library, included in this distribution).
+  The script that processes the form is "submit_app.php". The form information 
+  is entered into the database and a unique directory for the applicant is 
+  automatically created containing their uploaded files. A PDF coversheet is 
+  generated (using the FPDF library, included in this distribution) and appended 
+  to their uploaded files. The resulting PDF file (coversheet + uploaded files) 
+  is attached to the confirmation email that is sent to the applicant (using the 
+  "phpmailer" library, included in this distribution).
 
-***
-The command-line tool "pdftk" is required to concatenate the PDF files. This 
-tool can be obtained here:
-https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
-***
+  *
+  The command-line tool "pdftk" is required to concatenate the PDF files. This 
+  tool can be obtained here:
+  https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
+  *
 
-Upon successful form submission, the application page redirects to "thankyou.php".
+  Upon successful form submission, the application page redirects to "thankyou.php".
 
 2. Letter Submission Form (letter.php)
 
-This is where letters of recommendation are submitted. The letter-writers enter
-their name and email address, the applicant's name and email address, and then 
-upload their letter. Form validation is handled by the "jquery-validation" plugin.
+  This is where letters of recommendation are submitted. The letter-writers enter
+  their name and email address, the applicant's name and email address, and then 
+  upload their letter. Form validation is handled by the "jquery-validation" plugin.
 
-The script that processes the form is "submit_letter.php". The form information 
-is entered into the database, the letter is copied to the letters directory, and 
-a confirmation email is sent to both the applicant and the letter-writer.
+  The script that processes the form is "submit_letter.php". The form information 
+  is entered into the database, the letter is copied to the letters directory, and 
+  a confirmation email is sent to both the applicant and the letter-writer.
 
-Upon successful letter submission, the page redirects to "thankyou2.php".
+  Upon successful letter submission, the page redirects to "thankyou2.php".
 
 
 =================================================================================
