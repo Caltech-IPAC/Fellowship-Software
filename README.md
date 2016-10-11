@@ -38,7 +38,7 @@ Description of database:
 
 There are three tables: “fellows”, “letters”, and “users”
 
--fellows table
+1. fellows table
 
 This table contains information that the applicants enter into the application submission
 form, e.g. their contact information, PhD information, proposed host institutions and
@@ -48,7 +48,7 @@ using the system to collect the applications.
 
 This table will be populated automatically as applications are submitted.
 
--letters table
+2. letters table
 
 This table contains information about the recommendation letters that the letter-writers
 enter into the letter submission form, e.g. the applicant’s name and email address and the 
@@ -56,7 +56,7 @@ letter-writer’s name and email address.
 
 This table will be populated automatically as letters are submitted.
 
--users table
+3. users table
 
 This table contains usernames and passwords for people who need to log in to the system
 to view the submitted materials.  
