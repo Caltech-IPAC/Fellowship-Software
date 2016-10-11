@@ -20,7 +20,6 @@ Requirements:
 Setting up the database:
 
 1. Create a database called “fellows” (or whatever else you want to call it)
-
 mysql>create database fellows;
 
 2. Create a username and password for that database
