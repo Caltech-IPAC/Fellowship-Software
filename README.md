@@ -38,7 +38,7 @@ Description of database:
 
 There are three tables: “fellows”, “letters”, and “users”
 
-1. fellows table
+* fellows table
 
 This table contains information that the applicants enter into the application submission
 form, e.g. their contact information, PhD information, proposed host institutions and
@@ -48,7 +48,7 @@ using the system to collect the applications.
 
 This table will be populated automatically as applications are submitted.
 
-2. letters table
+* letters table
 
 This table contains information about the recommendation letters that the letter-writers
 enter into the letter submission form, e.g. the applicant’s name and email address and the 
@@ -56,7 +56,7 @@ letter-writer’s name and email address.
 
 This table will be populated automatically as letters are submitted.
 
-3. users table
+* users table
 
 This table contains usernames and passwords for people who need to log in to the system
 to view the submitted materials.  
@@ -88,7 +88,7 @@ are not available via URL. These directories must be writable by your webserver.
 
 Application and Letter Submission Forms:
 
-1. Application Submission Form (application.php)
+* Application Submission Form (application.php)
 
 This is where the applicants will enter their application information and upload 
 documents related to their applications. Form validation is handled by the
@@ -110,7 +110,7 @@ https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
 
 Upon successful form submission, the application page redirects to "thankyou.php".
 
-2. Letter Submission Form (letter.php)
+* Letter Submission Form (letter.php)
 
 This is where letters of recommendation are submitted. The letter-writers enter
 their name and email address, the applicant's name and email address, and then 
