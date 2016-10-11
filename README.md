@@ -20,13 +20,16 @@ Requirements:
 Setting up the database:
 
 1. Create a database called “fellows” (or whatever else you want to call it)
-    ```mysql>create database fellows;```
+
+  `mysql>create database fellows;`
 
 2. Create a username and password for that database
-    ```mysql>grant select, insert, update on fellows.* to 'username’@‘hostname’ identified by 'password';```
+
+  `mysql>grant select, insert, update on fellows.* to 'username’@‘hostname’ identified by 'password';`
 
 3. Read in the mysqldump file
-    ```/path/to/mysql -u root -p fellows < fellows_dump.sql```
+
+  `/path/to/mysql -u root -p fellows < fellows_dump.sql`
 
 4. Update “config.php” with the host name, database name, username, and password
 
