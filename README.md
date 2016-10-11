@@ -149,7 +149,7 @@ options: "View applications" and "View letters".
   the final PDF application (including the letters) are in the last column.
 
   To create the final application, after the required number of letters are submitted
-  and moved to the applicant's directory (see next section), click the "create" link.  
+  and moved to the applicant's directory (see next section), click the "create" link. 
   This will concatenate all of the application materials, including the coversheet, 
   documents uploaded by the applicant, and all of their letters of recommendation into 
   one final PDF file. If the PDF is successfully created, the "view" link will become 
