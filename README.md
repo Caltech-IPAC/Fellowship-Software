@@ -19,20 +19,20 @@ Requirements:
 
 Setting up the database:
 
-1.  Create a database called “fellows” (or whatever else you want to call it)
+1. Create a database called “fellows” (or whatever else you want to call it)
 
 `mysql>create database fellows;`
 
-2.  Create a username and password for that database
+2. Create a username and password for that database
 
 `mysql>grant select, insert, update on fellows.* to 'username’@‘hostname’ 
 identified by 'password';`
 
-3.  Read in the mysqldump file
+3. Read in the mysqldump file
 
 `/path/to/mysql -u root -p fellows < fellows_dump.sql`
 
-4.  Update “config.php” with the host name, database name, username, and password
+4. Update “config.php” with the host name, database name, username, and password
 
 
 =================================================================================
@@ -41,7 +41,7 @@ Description of database:
 
 There are three tables: “fellows”, “letters”, and “users”
 
-* fellows table
+1. fellows table
 
 This table contains information that the applicants enter into the application submission
 form, e.g. their contact information, PhD information, proposed host institutions and
@@ -51,7 +51,7 @@ using the system to collect the applications.
 
 This table will be populated automatically as applications are submitted.
 
-* letters table
+2. letters table
 
 This table contains information about the recommendation letters that the letter-writers
 enter into the letter submission form, e.g. the applicant’s name and email address and the 
@@ -59,7 +59,7 @@ letter-writer’s name and email address.
 
 This table will be populated automatically as letters are submitted.
 
-* users table
+3. users table
 
 This table contains usernames and passwords for people who need to log in to the system
 to view the submitted materials.  
@@ -91,7 +91,7 @@ are not available via URL. These directories must be writable by your webserver.
 
 Application and Letter Submission Forms:
 
-* Application Submission Form (application.php)
+1. Application Submission Form (application.php)
 
 This is where the applicants will enter their application information and upload 
 documents related to their applications. Form validation is handled by the
@@ -113,7 +113,7 @@ https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
 
 Upon successful form submission, the application page redirects to "thankyou.php".
 
-* Letter Submission Form (letter.php)
+2. Letter Submission Form (letter.php)
 
 This is where letters of recommendation are submitted. The letter-writers enter
 their name and email address, the applicant's name and email address, and then 
@@ -136,7 +136,7 @@ as described above.  The script "password_check.php" validates passwords and dir
 users to the "welcome.php" page upon successful login. The Welcome page lists two 
 options: "View applications" and "View letters".
 
-* View Applications (list_apps.php)
+1. View Applications (list_apps.php)
 
 This page lists the submitted applications. Basic information about each applicant
 is listed, along with links to the submitted application materials (CV, research
@@ -159,7 +159,7 @@ cause the concatenation to fail. In this case, the "view" link will not become
 active or will not open properly. Check that all files to be concatenated are truly 
 PDFs, convert any if necessary, and re-click the "create" link.
 
-* View Letters (list_letters.php)
+2. View Letters (list_letters.php)
 
 This page lists the submitted letters of recommendation. The table lists both the 
 applicant's name and the referee's name, the date the letter was submitted, and a 
