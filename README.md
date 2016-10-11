@@ -133,7 +133,7 @@ as described above.  The script "password_check.php" validates passwords and dir
 users to the "welcome.php" page upon successful login. The Welcome page lists two 
 options: "View applications" and "View letters".
 
-1. View Applications (list_apps.php)
+* View Applications (list_apps.php)
 
 This page lists the submitted applications. Basic information about each applicant
 is listed, along with links to the submitted application materials (CV, research
@@ -156,7 +156,7 @@ cause the concatenation to fail. In this case, the "view" link will not become
 active or will not open properly. Check that all files to be concatenated are truly 
 PDFs, convert any if necessary, and re-click the "create" link.
 
-2. View Letters (list_letters.php)
+* View Letters (list_letters.php)
 
 This page lists the submitted letters of recommendation. The table lists both the 
 applicant's name and the referee's name, the date the letter was submitted, and a 
