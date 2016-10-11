@@ -64,6 +64,7 @@ There are three tables: “fellows”, “letters”, and “users”
     to view the submitted materials.  
 
     To populate this table, use the following SQL syntax:
+
     `mysql>insert into users values (NULL, ‘FirstName LastName’, ‘username’, ‘password’, ‘admin’);`
 
     Passwords should be hashed. Instructions on how to do this are in ‘passwords.php’;
@@ -80,6 +81,7 @@ Create two directories to hold the submitted applications and letters of recomme
 Update config.php with the paths to these directories:
 
 `$basedir = "/path/to/applications/directory/";`
+
 `$basedir2 = "/path/to/letters/directory/";`
 
 We typically do not place these in a web-accessible directory so that the files
