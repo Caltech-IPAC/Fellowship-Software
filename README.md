@@ -79,8 +79,8 @@ above) and other variables that are used throughout the application.
 Create two directories to hold the submitted applications and letters of recommendation.  
 Update config.php with the paths to these directories:
 
-$basedir = "/path/to/applications/directory/";
-$basedir2 = "/path/to/letters/directory/";
+`$basedir = "/path/to/applications/directory/";`
+`$basedir2 = "/path/to/letters/directory/";`
 
 We typically do not place these in a web-accessible directory so that the files
 are not available via URL. These directories must be writable by your webserver.
