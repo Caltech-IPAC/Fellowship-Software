@@ -39,31 +39,31 @@ There are three tables: “fellows”, “letters”, and “users”
 
 1. fellows table
 
-This table contains information that the applicants enter into the application submission
-form, e.g. their contact information, PhD information, proposed host institutions and
-research, and the names of their references. The table also contains several columns 
-related to the application review process. These columns aren’t needed if you are only
-using the system to collect the applications.
+    This table contains information that the applicants enter into the application submission
+    form, e.g. their contact information, PhD information, proposed host institutions and
+    research, and the names of their references. The table also contains several columns 
+    related to the application review process. These columns aren’t needed if you are only
+    using the system to collect the applications.
 
-This table will be populated automatically as applications are submitted.
+    This table will be populated automatically as applications are submitted.
 
 2. letters table
 
-This table contains information about the recommendation letters that the letter-writers
-enter into the letter submission form, e.g. the applicant’s name and email address and the 
-letter-writer’s name and email address.  
+    This table contains information about the recommendation letters that the letter-writers
+    enter into the letter submission form, e.g. the applicant’s name and email address and the 
+    letter-writer’s name and email address.  
 
-This table will be populated automatically as letters are submitted.
+    This table will be populated automatically as letters are submitted.
 
 3. users table
 
-This table contains usernames and passwords for people who need to log in to the system
-to view the submitted materials.  
+    This table contains usernames and passwords for people who need to log in to the system
+    to view the submitted materials.  
 
-To populate this table, use the following SQL syntax:
-mysql>insert into users values (NULL, ‘FirstName LastName’, ‘username’, ‘password’, ‘admin’);
+    To populate this table, use the following SQL syntax:
+    `mysql>insert into users values (NULL, ‘FirstName LastName’, ‘username’, ‘password’, ‘admin’);`
 
-Passwords should be hashed. Instructions on how to do this are in ‘passwords.php’;
+    Passwords should be hashed. Instructions on how to do this are in ‘passwords.php’;
 
 
 =================================================================================
