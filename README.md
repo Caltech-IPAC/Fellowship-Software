@@ -10,6 +10,7 @@ and a final PDF file of the entire application, including letters, can be create
 
 Requirements:
 - Apache or other web server
+- SSL security for encrypting data passed between server and client
 - PHP version 5.0 or newer
 - MySQL version 4.1 or newer
 - pdftk command-line tool (https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
